@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Our Products</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!--! header section start  -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Anasayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="menu.html" >Günün Yemeği</a>
+        <a href="products.html">Tarif Öner</a>
+        <a href="review.html">Yorumlar</a>
+        <a href="contact.html">İletişim</a>
+        <a href="blogs.html">Blogs</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/Çorba.jpg" alt="menu" />
+          <div class="content">
+            <h3>Şehriye Çorbası</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/kestaneli-pilav-525439-9fb152cb-22bd-426c-a359-a2ddef2e55e1.jpg" alt="menu" />
+          <div class="content">
+            <h3>Kestaneli Pirinç Pilavı</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/tavuk-sote-yemekcom.jpg" alt="menu" />
+          <div class="content">
+            <h3>Tavuk Sote</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/revani-yemekcom.jpg" alt="menu" />
+          <div class="content">
+            <h3>Revani</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <a href="#" class="btn">Malzemeler</a>
+      </div>
+    </header>
+    <!--! header section end  -->
+
+    <!--! products section start  -->
+<section class="products" id="products">
+  <h1 class="heading"><span>Günün Yemeği</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="box-head">
+        <span class="title">Etli Mantı</span>
+        <a href="#" class="name">Kayseri Mantısı</a>
+      </div>
+      <div class="image">
+        <img src="images/60c71f764e3fe0140cedfe55.webp" alt="" />
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price"></b>
+          <span class="amount">100gr / 175.68 kcal </span>
+        </div>
+        <div class="product-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <span class="title">Peynirli</span>
+        <a href="#" class="name">Su Böreği</a>
+      </div>
+      <div class="image">
+        <img src="images/812x467-su-boregi-tarifi-su-boregi-nasil-yapilir-1563576882156.jpg" alt="" />
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price"></b>
+          <span class="amount">330gr / 756 kcal</span>
+        </div>
+        <div class="product-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="box dark-bg">
+      <div class="box-head">
+        <span class="title">Hamsi tava</span>
+        <a href="#" class="name">Hamsi</a>
+      </div>
+      <div class="image">
+        <img src="images/airfryerda-hamsi-kizartma-a3c2369e-c8a8-44e7-9483-2d387c33ebe8.jpg" alt="" />
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price"></b>
+          <span class="amount">100gr / 293.68 kcal</span>
+        </div>
+        <div class="product-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--! products section end  -->
+
+    <!--! footer section start  -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Ara" />
+        <button class="btn btn-primary">Ara</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html">Anasayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="menu.html" >Günün Yemeği</a>
+        <a href="products.html" class="active">Tarif Öner</a>
+        <a href="review.html">Yorumlar</a>
+        <a href="contact.html">İletişim</a>
+        <a href="blogs.html">Blogs</a>
+      </div>
+
+      <div class="credit">
+        created by <span>Başak Güler</span> | all rigths reserved
+      </div>
+    </section>
+    <!--! footer section end  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

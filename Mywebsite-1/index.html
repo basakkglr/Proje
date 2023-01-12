@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>YemekTarifleri</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <!--! header section start  -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Anasayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="menu.html" >Günün Yemeği</a>
+        <a href="products.html">Tarif Öner</a>
+        <a href="review.html">Yorumlar</a>
+        <a href="contact.html">İletişim</a>
+        <a href="blogs.html">Blogs</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/Çorba.jpg" alt="menu" />
+          <div class="content">
+            <h3>Şehriye Çorbası</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/kestaneli-pilav-525439-9fb152cb-22bd-426c-a359-a2ddef2e55e1.jpg" alt="menu" />
+          <div class="content">
+            <h3>Kestaneli Pirinç Pilavı</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/tavuk-sote-yemekcom.jpg" alt="menu" />
+          <div class="content">
+            <h3>Tavuk Sote</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/revani-yemekcom.jpg" alt="menu" />
+          <div class="content">
+            <h3>Revani</h3>
+            <div class="price"></div>
+          </div>
+        </div>
+        <a href="#" class="btn">Malzemeler</a>
+      </div>
+    </header>
+    <!--! header section end  -->
+<!--! home section start  -->
+<section class="home" id="home">
+  <div class="content">
+    <h3>NEFİS YEMEK TARİFLERİ</h3>
+    <p>
+      Seçenekler tuhaftır. Sonsuzluk kadar eski zamanlardan beri ağaç dalları ve kökleri yiyen ilkel bir kabilenin üyelerine mutsuz olup olmadıklarını sorarsanız size omuz silkerler. Ama onlara mantar soslu biftek verir ve sonra eski yaşamlarına dönmelerini sağlarsanız, sonsuza dek o gurme yemeğini düşünürler. Bir seçenek olduğunu bilmiyorsanız, onu özleyemezsiniz de..
+    </p>
+    <a href="#" class="btn">Hadi Yemek Yapalım...</a>
+  </div>
+</section>
+<!--! home section end  -->
+
+<!--! menu section start  -->
+<section class="menu" id="menu">
+  <h1 class="heading"><span>Günün Yemeği</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="box-head">
+        <img src="images/Çorba.jpg" alt="menu" />
+        <span class="menu-category"></span>
+        <h3>Şehriye Çorbası</h3>
+        <div class="price"><span></span></div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Tarife git</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <img src="images/kestaneli-pilav-525439-9fb152cb-22bd-426c-a359-a2ddef2e55e1.jpg" alt="menu" />
+        <span class="menu-category"></span>
+        <h3>Kestaneli Pirinç Pilavı</h3>
+        <div class="price"> <span></span></div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Tarife git</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <img src="images/tavuk-sote-yemekcom.jpg" alt="menu" />
+        <span class="menu-category"></span>
+        <h3>Tavuk Sote</h3>
+        <div class="price"><span></span></div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Tarife git</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <img src="images/revani-yemekcom.jpg" alt="menu" />
+        <span class="menu-category"></span>
+        <h3>Revani<m/h3>
+        <div class="price"><span></span></div>
+      </div>
+      <div class="box-bottom">
+        <a href="#" class="btn">Tarife git</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--! menu section end  -->
+
+<!--! products section start  -->
+<section class="products" id="products">
+  <h1 class="heading"><span>Nasıl Yaparım?</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="box-head">
+        <span class="title">Etli Mantı</span>
+        <a href="#" class="name">Kayseri Mantısı</a>
+      </div>
+      <div class="image">
+        <img src="images/60c71f764e3fe0140cedfe55.webp" alt="" />
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price"></b>
+          <span class="amount">100gr / 175.68 kcal </span>
+        </div>
+        <div class="product-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-head">
+        <span class="title">Peynirli</span>
+        <a href="#" class="name">Su Böreği</a>
+      </div>
+      <div class="image">
+        <img src="images/812x467-su-boregi-tarifi-su-boregi-nasil-yapilir-1563576882156.jpg" alt="" />
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price"></b>
+          <span class="amount">330gr / 756 kcal</span>
+        </div>
+        <div class="product-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="box dark-bg">
+      <div class="box-head">
+        <span class="title">Hamsi tava</span>
+        <a href="#" class="name">Hamsi</a>
+      </div>
+      <div class="image">
+        <img src="images/airfryerda-hamsi-kizartma-a3c2369e-c8a8-44e7-9483-2d387c33ebe8.jpg" alt="" />
+      </div>
+      <div class="box-bottom">
+        <div class="info">
+          <b class="price"></b>
+          <span class="amount">100gr / 293.68 kcal</span>
+        </div>
+        <div class="product-btn">
+          <a href="#">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--! products section end  -->
+
+<!--! about section start  -->
+<section class="about" id="about">
+  <h1 class="heading">Hakkımızda<span></span></h1>
+  <div class="row">
+    <div class="image">
+      <img src="images/ispanakyemegiyenionecikan.webp" alt="about" />
+    </div>
+    <div class="content">
+      <h3>Lezzetli Ispanak Yemeği Tarifi Nasıl Yapılır?</h3>
+      <p>
+        -Ispanak seçimlerinde küçük ve orta boylarda olması her zaman için yemeğin daha güzel ve lezzetli olmasını sağlar.
+      </p>
+      <p>
+        -Ispanakların iyice yıkayıp sirkeli suda bekletilmelidir. Topraklarından ve bakterilerinden arınması için.
+      </p>
+      <p>
+        -Ispanaklar söndükten sonra pirinçler ilave edilir.
+      </p>
+      <p>
+        -Tarifte su oranına dikkat edilmelidir. Kendi zevkinize göre ayarlayabilirsiniz elbette ama çok sulu olmamasına özen gösterilmeli.
+      </p>
+      <p>
+        -Tencerenin ağzı kapatılıp beklenirse ortalama 25 dk. kadar sonra ıspanak ve pirinçler pişmiş olacaktır.Ispanak yemeğimiz hazır. İster sıcak, ister ılık olarak tüketilebilir.
+      </p>
+      <a href="#" class="btn">devamını oku...</a>
+    </div>
+  </div>
+</section>
+<!--! about section end  -->
+
+<!--! review section start  -->
+<section class="review" id="review">
+  <h1 class="heading">Kullanıcı<span> Yorumları</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <img src="images/quote.png" alt="quote" />
+      <p>
+        Ispanak yemeği için pirinçler pişmiyor diyenler için, pirinçleri 20 dk suda bekletin ve öyle ekleyin 10 dk bile olmadan pişiryorlar 😊 hatta beklettiğiiniz suya bi kaç damla limon da sıkabilirsiniz ben hep böyle yaparım 👌
+      </p>
+      <img src="images/Avatar-1.png.jpg" alt="avatar" class="user" />
+      <h3>Bade AKKAYA</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/quote.png" alt="quote" />
+      <p>
+        Sosunu kaynattıktan sonra bir parça tereyağ ve yarım tablet bitter çikolata ekliyorum.parlak ve çok daha lezzetli oluyor,cafelerdeki gibi görüntüsü de lezzeti de daha iyi oluyor herkese tavsiye ederim💕💕
+      </p>
+      <img src="images/Avatar-2.png.jpg" alt="avatar" class="user" />
+      <h3>Hafize YILMAZ</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/quote.png" alt="quote" />
+      <p>
+        yapmak istediğim yemeği tatlıyı vs. aramaya yazıyorum ilk tariflerin arasından elif hanımın tarifi varmı diye bakıyorum varsa oh be ozaman bunu yapayım diyorum çünkü 4 yıllık evliyim ve bi kere bile tarifleri yanıltmadı harika şeylrr yaptım.. tek tarifine güvendiğim kişi diyebilirim ☺☺ Tşkler elif hanım 💕
+      </p>
+      <img src="images/Avatar-3.png.jpg" alt="avatar" class="user" />
+      <h3>Nurcan ALTUNEL</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+  </div>
+</section>
+<!--! review section end  -->
+
+<!--! contact section start  -->
+<section class="contact" id="contact">
+  <h1 class="heading">Bize <span>Ulaşın</span></h1>
+  <div class="row">
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12037.852231349814!2d28.985091699999998!3d41.03700175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCBHw7xtw7zFn3N1eXUsIDM0NDM1IEJleW_En2x1L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1652655842555!5m2!1str!2str"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <form>
+      <h3>İletişim</h3>
+      <div class="inputBox">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Ad-Soyad" />
+      </div>
+      <div class="inputBox">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="email" />
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="Telefon Numarası" />
+      </div>
+      <input type="submit" class="btn" value="İletişime Geç" />
+    </form>
+  </div>
+</section>
+<!--! contact section end  -->
+
+<!--! blogs section start  -->
+<section class="blogs" id="blogs">
+  <h1 class="heading"><span>blog</span></h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="images/yilbasi-temali-en-iyi-tabaklar-ve-fiyatlari.jpg" alt="blog" />
+      </div>
+      <div class="content">
+        <a href="#" class="title">Yılbaşı Tabakları: Yeni Yıl Masanızı Taçlandırın!</a>
+        <span>by admin /1 ocak, 2023</span>
+        <p>
+          Yılbaşı gecesinde evinizde sevdiklerinizle yemek yemek için özenli bir sofra hazırlarsınız. Bu sofranın her detayı en iyi ürünlerden oluşmalı değil mi? Tabak, çatal, peçete ve örtüler yemekleri gösteren ürünler olarak masada yerini alır.
+
+Eğer yeni yıl akşamında daha önceki sofralardan farklı bir sofra kurmak isterseniz; yılbaşı temalı tabaklar seçebilirsiniz. Firmaların yeni yıl konseptine uygun olarak tasarladığı tabaklar, yılın son gecesinde masanızda iz bırakacak.
+        </p>
+        <a href="#" class="btn">devamını oku</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="images/airfryer-nedir-saglikli-mi-kullanimi-temizligi-3.jpg" alt="blog" />
+      </div>
+      <div class="content">
+        <a href="#" class="title">Airfryer Nedir? Sağlıklı Mı? Kullanımı, Temizliği?</a>
+        <span>by admin / 1 ocak, 2023</span>
+        <p>
+          Airfryer sağlıklı mı sorusu birçok kişinin merak ettiği konular arasında. Bu soruya diyetisyenler sık sık yanıt veriyor. Öncelikle, kızartma işlemi için minimum ölçüde yağ harcadığı için sağlıklı bir ürün olarak mutfaklarda yerini alıyor. Yemeklerin yağ içeriğini azalttığı için kullanışlı ve doğru bir seçim olarak görülüyor. Çok sık kızartma yapılan evlerde tavada kızartma işlemi yerine airfryer tercih edilirse öğünler daha sağlıklı geçebilir.
+
+        </p>
+        <a href="#" class="btn">devamını oku</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="images/yilbasi-sofrasi-nasil-hazirlanir-7-ipucu-4.jpg" alt="blog" />
+      </div>
+      <div class="content">
+        <a href="#" class="title">Yılbaşı Sofrası Nasıl Hazırlanır?</a>
+        <span>by admin / 1 ocak, 2023</span>
+        <p>
+          Ne derler bilirsiniz; yeni yıla nasıl girerseniz bütün bir yıl öyle geçermiş! Herkesin yeni yıldan beklentisi farklı olsa da, ortak dileğimiz sevdiklerimizle birlikte mutlu, huzurlu ve sağlıklı bir yıl geçirmek.
+        </p>
+        <a href="#" class="btn">devamını oku</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--! blogs section end  -->
+
+<!--! footer section start  -->
+<section class="footer">
+  <div class="search">
+    <input type="text" class="search-input" placeholder="Ara" />
+    <button class="btn btn-primary">Ara</button>
+  </div>
+  <div class="share">
+    <a href="#" class="fab fa-facebook"></a>
+    <a href="#" class="fab fa-twitter"></a>
+    <a href="#" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-linkedin"></a>
+    <a href="#" class="fab fa-pinterest"></a>
+  </div>
+
+  <div class="links">
+    <a href="#" class="active">Anasayfa</a>
+    <a href="#">Hakkımızda</a>
+    <a href="#">Günün Yemeği</a>
+    <a href="#">Tarif Öner</a>
+    <a href="#">Yorumlar</a>
+    <a href="#">İletişim</a>
+    <a href="#">Blogs</a>
+  </div>
+
+  <div class="credit">
+    created by <span>Başak Güler</span> | all rigths reserved
+  </div>
+</section>
+<!--! footer section end  -->
+
+<script src="js/script.js"></script>
+</body>
+</html>s
